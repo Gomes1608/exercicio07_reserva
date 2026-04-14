@@ -9,6 +9,13 @@ public class Cliente {
         this.cliente = cliente;
     }
 
+    public String getDados(){
+        String aux = "";
+        aux+="CNPJ: "+ cnpj + "\n";
+        aux+="Cliente: "+ cliente + "\n";
+        return aux;
+    }
+
     public int getCnpj() {
         return cnpj;
     }
